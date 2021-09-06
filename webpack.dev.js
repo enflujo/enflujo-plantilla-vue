@@ -7,7 +7,7 @@ module.exports = merge(base, {
   devtool: 'inline-source-map',
   target: 'web',
   devServer: {
-    contentBase: path.join(__dirname, 'docs'),
+    static: path.join(__dirname, 'docs'),
     historyApiFallback: true
   },
   module: {
